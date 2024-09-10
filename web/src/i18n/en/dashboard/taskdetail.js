@@ -10,6 +10,6 @@ export default {
    'dashboard.taskdetail.finished':'Finished',
    'dashboard.taskdetail.confirmed':'CONFIRMED',
    'dashboard.taskdetail.error':'Error',
-   'dashboard.taskdetail.download_result':'Download Result',
+   'dashboard.taskdetail.download_result':'Download Result and Deploy Model',
    'dashboard.taskdetail.task_logs':'Task Logs',
 }

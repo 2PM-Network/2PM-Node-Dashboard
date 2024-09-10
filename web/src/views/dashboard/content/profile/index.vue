@@ -42,7 +42,7 @@
             </el-row>
             <el-row>
                <el-col>
-                  <setting-section title="Deltaboard API">
+                  <setting-section title="2PM Board API">
                      <template>
                         <el-form>
                            <el-form-item :label="$t('dashboard.profile.dashboard_api')">
