@@ -1,0 +1,21 @@
+environment: "debug"
+db:
+    driver: "${DB_DRIVER}"
+    connection: "${CONNECTOR}"
+log:
+    level: "debug"
+http:
+    host: "0.0.0.0"
+    port: "8080"
+
+session:
+    driver: "memory"
+    secret_key: "secret_key"
+    connection: ""
+    login_max_age_seconds: 36000
+    vault_max_age_seconds: 3600
+allow_origins:
+    - http://localhost:8090
+    - "${FRONT_END_DOMAIN}:${FRONT_END_PORT}"
+
+file_storage_type: 1

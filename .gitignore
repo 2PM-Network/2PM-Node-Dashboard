@@ -1,0 +1,39 @@
+.idea/
+.vscode/
+*.iml
+server/data/mysql/db
+server/data/mysql/logs
+front/.env.development
+front/.env
+web/.env.development
+web/.env
+home
+db/
+whls/
+whls_delta/
+server/config/config.yml
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.idea
+**/.vscode/
+.DS_Store
+.vendor
+vendor
+main
+.idea
+server/deploy
+docker-compose copy.yml
+.env
+
+node/**/*

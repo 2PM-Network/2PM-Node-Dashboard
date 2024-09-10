@@ -1,0 +1,7 @@
+config/*.tmpl
+config/*.yml
+home
+front/cert
+front/node_modules
+.vscode
+configuration
